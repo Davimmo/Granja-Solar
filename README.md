@@ -1,5 +1,5 @@
 # Granja-Solar
-Criar o sistema de gestão de um zoológico utilizando java
+Cria o sistema de catálogo de um zoológico utilizando java
 
 Animais: (ID, porte, dieta, tipo de habitat, período de atividade)
 Leão
