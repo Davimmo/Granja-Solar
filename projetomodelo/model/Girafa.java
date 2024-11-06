@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Girafa extends Animal {
-
-	public Girafa(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Girafa() {
+		super(
+				"Giraffa camelopardalis",
+				new String[] {"Girafa", "Girafa-comum"},
+				"Herbívoro",
+				"África subsaariana",
+				"25-30 anos",
+				"Solitária ou em pequenos grupos",
+				"Ano todo"
+		);
 	}
-
 }

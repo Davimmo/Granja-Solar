@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Lemure extends Animal {
-
-	public Lemure(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Lemure() {
+		super(
+				"Lemuriformes",
+				new String[] {"Lêmure", "Lêmure-de-cauda-anelada"},
+				"Onívoro",
+				"Madagascar",
+				"15-20 anos",
+				"Vive em grupos de até 30 indivíduos",
+				"De setembro a dezembro"
+		);
 	}
-
 }

@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Esquilo extends Animal {
-
-	public Esquilo(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Esquilo() {
+		super(
+				"Sciuridae",
+				new String[] {"Esquilo", "Esquilo-comum"},
+				"Onívoro",
+				"Florestas e áreas urbanas da América do Norte, Europa e Ásia",
+				"6-12 anos",
+				"Solitário",
+				"Ano todo"
+		);
 	}
-
 }

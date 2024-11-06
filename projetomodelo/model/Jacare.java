@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Jacare extends Animal {
-
-	public Jacare(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Jacare() {
+		super(
+				"Crocodylus jacare",
+				new String[] {"Jacaré-do-pantanal", "Jacaré negro"},
+				"Carnívoro",
+				"Regiões tropicais e subtropicais das Américas",
+				"35-50 anos",
+				"Solitário ou em pequenos grupos",
+				"De setembro a fevereiro"
+		);
 	}
-	
 }

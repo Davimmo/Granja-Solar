@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Lebre extends Animal {
-
-	public Lebre(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Lebre() {
+		super(
+				"Lepus europaeus",
+				new String[] {"Lebre", "Lebre-europeia"},
+				"Herbívoro",
+				"Campos e áreas abertas da Europa, Ásia e América do Norte",
+				"5-7 anos",
+				"Solitária",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

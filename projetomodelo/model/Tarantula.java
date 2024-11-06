@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Tarantula extends Animal {
-
-	public Tarantula(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Tarantula() {
+		super(
+				"Theraphosidae",
+				new String[] {"Tarantula", "Aranha-tarantula"},
+				"Carnívoro",
+				"Florestas tropicais e savanas do mundo inteiro",
+				"5-25 anos (dependendo da espécie)",
+				"Solitária",
+				"Durante a estação chuvosa"
+		);
 	}
-
 }

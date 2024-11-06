@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Tucano extends Animal {
-
-	public Tucano(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Tucano() {
+		super(
+				"Ramphastos toco",
+				new String[] {"Tucano-toco", "Tucano"},
+				"Frugívoro",
+				"Florestas tropicais da América do Sul",
+				"20-25 anos",
+				"Solitário ou em pequenos grupos",
+				"Ano todo"
+		);
 	}
-
 }

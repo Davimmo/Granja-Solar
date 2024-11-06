@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class OncaPintada extends Animal {
-
-	public OncaPintada(String nomeCientifico, List nomesPopulares, String habitoAlimentar,
-			String distribuicaoGeografica, String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public OncaPintada() {
+		super(
+				"Panthera onca",
+				new String[] {"Onça-pintada", "Onça"},
+				"Carnívoro",
+				"Florestas tropicais e áreas pantanosas da América",
+				"12-15 anos (natureza), 20-25 anos (cativeiro)",
+				"Solitária",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

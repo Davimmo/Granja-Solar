@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Leao extends Animal {
-
-	public Leao(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Leao() {
+		super(
+				"Panthera leo",
+				new String[] {"Leão", "Rei da selva"},
+				"Carnívoro",
+				"África subsaariana",
+				"12-16 anos (natureza), 20-25 anos (cativeiro)",
+				"Vive em bando, 2-30 indivíduos",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

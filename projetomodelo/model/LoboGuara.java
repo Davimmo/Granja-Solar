@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class LoboGuara extends Animal {
-
-	public LoboGuara(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public LoboGuara() {
+		super(
+				"Chrysocyon brachyurus",
+				new String[] {"Lobo-guará", "Lobo-do-cerrado"},
+				"Onívoro",
+				"Cerrados do Brasil",
+				"10-15 anos",
+				"Solitário ou em pares",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Pato extends Animal {
-
-	public Pato(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Pato() {
+		super(
+				"Anatidae",
+				new String[] {"Pato", "Pato-mergulhão"},
+				"Onívoro",
+				"Áreas aquáticas da América e Europa",
+				"10-15 anos",
+				"Solitário ou em bandos",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

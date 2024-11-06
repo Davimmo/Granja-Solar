@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Coruja extends Animal {
-
-	public Coruja(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Coruja() {
+		super(
+				"Strigidae",
+				new String[] {"Coruja", "Coruja-buraqueira"},
+				"Carnívoro",
+				"Áreas abertas, florestas e regiões urbanas",
+				"10-20 anos",
+				"Solitária",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

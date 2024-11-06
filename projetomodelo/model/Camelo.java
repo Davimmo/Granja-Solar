@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Camelo extends Animal {
-
-	public Camelo(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Camelo() {
+		super(
+				"Camelus dromedarius",
+				new String[] {"Camelo", "Camelo-de-uma-corda"},
+				"Herbívoro",
+				"Desertos e regiões áridas da Ásia e África",
+				"40-50 anos",
+				"Solitário ou em grupos",
+				"Durante a estação seca"
+		);
 	}
-
 }

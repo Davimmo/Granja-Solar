@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Crocodilo extends Animal {
-
-	public Crocodilo(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Crocodilo() {
+		super(
+				"Crocodylus niloticus",
+				new String[] {"Crocodilo-do-nilo", "Crocodilo", "Jacaré"},
+				"Carnívoro",
+				"Áreas aquáticas da África, Ásia e América",
+				"70-100 anos",
+				"Solitário",
+				"Durante a estação seca"
+		);
 	}
-
 }

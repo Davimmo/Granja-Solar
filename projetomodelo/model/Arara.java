@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Arara extends Animal {
-
-	public Arara(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Arara() {
+		super(
+				"Ara ararauna",
+				new String[] {"Arara-azul", "Arara azul e amarela"},
+				"Frugívoro",
+				"Florestas tropicais da América do Sul",
+				"30-35 anos (natureza), 50 anos (cativeiro)",
+				"Solitária ou em pequenos grupos",
+				"Ano todo"
+		);
 	}
-	
 }

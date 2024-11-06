@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Anta extends Animal {
-
-	public Anta(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Anta() {
+		super(
+				"Tapirus terrestris",
+				new String[] {"Anta", "Anta-brasileira"},
+				"Herbívoro",
+				"Florestas e áreas pantanosas da América do Sul",
+				"30-35 anos",
+				"Solitária",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }

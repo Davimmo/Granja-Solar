@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class MacacoPrego extends Animal {
-
-	public MacacoPrego(String nomeCientifico, List nomesPopulares, String habitoAlimentar,
-			String distribuicaoGeografica, String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public MacacoPrego() {
+		super(
+				"Sapajus spp.",
+				new String[] {"Macaco-prego", "Macaco-prego-de-cara-branca"},
+				"Onívoro",
+				"Florestas tropicais da América do Sul",
+				"15-27 anos",
+				"Vive em grupos de 5-30 indivíduos",
+				"Ano todo"
+		);
 	}
-
 }

@@ -1,14 +1,15 @@
 package main.java.br.edu.univasf.projetomodelo.model;
 
-import java.util.List;
-
 public class Zebra extends Animal {
-
-	public Zebra(String nomeCientifico, List nomesPopulares, String habitoAlimentar, String distribuicaoGeografica,
-			String expectativaDeVida, String comportamento, String epocaDeReproducao) {
-		super(nomeCientifico, nomesPopulares, habitoAlimentar, distribuicaoGeografica, expectativaDeVida, comportamento,
-				epocaDeReproducao);
-		// TODO Auto-generated constructor stub
+	public Zebra() {
+		super(
+				"Equus quagga",
+				new String[] {"Zebra-comum", "Zebra de plains"},
+				"Herbívoro",
+				"África",
+				"20-30 anos",
+				"Vive em grupos de 5-20 indivíduos",
+				"Durante a estação das chuvas"
+		);
 	}
-
 }
